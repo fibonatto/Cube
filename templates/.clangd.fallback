@@ -1,0 +1,9 @@
+# Minimal fallback .clangd - regenerate with setup_lsp.sh
+CompileFlags:
+  Remove:
+    "-mllvm",
+    "--sysroot=*",
+    "--target=*"
+
+Index:
+  Background: Build
